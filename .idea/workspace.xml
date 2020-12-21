@@ -2,103 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="220b5f8b-f14e-4027-87e4-d5be5d11314e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_spinners.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_toasts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/bootstrap-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/bootstrap-reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_deprecate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_borders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_interactions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_overflow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_screenreaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_stretched-link.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/scss/vendor/_rfs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/KclustersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/KclustersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/kclusters/clustering.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/kclusters/clustering.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608453027007</updated>
-      <workItem from="1608453028199" duration="39917000" />
+      <workItem from="1608453028199" duration="44790000" />
     </task>
     <servers />
   </component>

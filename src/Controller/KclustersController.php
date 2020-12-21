@@ -36,21 +36,23 @@ class KclustersController extends AbstractController
         $dimensions = ['Age' => 'age', 'Height' => 'height', 'Weight' => 'weight'];
 
         $form = $this->createFormBuilder(null)
-            ->add('clusterCount', NumberType::class)
-            ->add('repeatTime', NumberType::class)
+            ->add('clusterCount', NumberType::class, array('label'=> 'Count of clusters'))
+            ->add('repeatTime', NumberType::class, array('label'=>'Repeat time'))
             ->add('dimensions', ChoiceType::class,[
+                'label' => 'Select pair of dimension',
                 'placeholder' => 'Chose two dimension',
                 'choices' => $dimensions,
                 'multiple' => true,
                 'expanded' => true
             ]
             )
-            ->add('Go', SubmitType::class)
+            ->add('cluster', SubmitType::class)
             ->getForm();
 
         $form->handleRequest($request);
 
         if($form->isSubmitted() && $form->isValid()) {
+            dd(1);
             if(sizeof($form->getData()['dimensions']) <= 1 || sizeof($form->getData()['dimensions']) == 3){
                 $this->get('session')->getFlashBag()->add(
                     'warning',
