@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Kclusters index{% endblock %}
+
+{% block body %}
+
+
+    <h1>Kclusters index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>First dimension</th>
+                <th>Second dimension</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for kcluster in kclusters %}
+            <tr>
+                <td>{{ kcluster.id }}</td>
+                <td>{{ kcluster.firstDim }}</td>
+                <td>{{ kcluster.secondDim }}</td>
+                <td>
+                    <a href="{{ path('kclusters_show', {'id': kcluster.id}) }}">show</a>
+                    <a href="{{ path('kclusters_edit', {'id': kcluster.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="4">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('kclusters_new') }}">Create new</a>
+{% endblock %}

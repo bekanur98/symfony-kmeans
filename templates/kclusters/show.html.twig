@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Kclusters{% endblock %}
+
+{% block body %}
+    <h1>Kclusters</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ kcluster.id }}</td>
+            </tr>
+            <tr>
+                <th>Salary</th>
+                <td>{{ kcluster.salary }}</td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>{{ kcluster.age }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('kclusters_index') }}">back to list</a>
+
+    <a href="{{ path('kclusters_edit', {'id': kcluster.id}) }}">edit</a>
+
+    {{ include('kclusters/_delete_form.html.twig') }}
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Kclusters{% endblock %}
+
+{% block body %}
+    <h1>Edit Kclusters</h1>
+
+    {{ include('kclusters/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('kclusters_index') }}">back to list</a>
+
+    {{ include('kclusters/_delete_form.html.twig') }}
+{% endblock %}

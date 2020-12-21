@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Workers{% endblock %}
+
+{% block body %}
+    <h1>Workers</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ worker.id }}</td>
+            </tr>
+            <tr>
+                <th>FirstName</th>
+                <td>{{ worker.firstName }}</td>
+            </tr>
+            <tr>
+                <th>LastName</th>
+                <td>{{ worker.lastName }}</td>
+            </tr>
+            <tr>
+                <th>Company</th>
+                <td>{{ worker.company }}</td>
+            </tr>
+            <tr>
+                <th>Role</th>
+                <td>{{ worker.role }}</td>
+            </tr>
+            <tr>
+                <th>Number</th>
+                <td>{{ worker.number }}</td>
+            </tr>
+            <tr>
+                <th>Series</th>
+                <td>{{ worker.series }}</td>
+            </tr>
+            <tr>
+                <th>Birthday</th>
+                <td>{{ worker.birthday ? worker.birthday|date('Y-m-d') : '' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('workers_index') }}">back to list</a>
+
+    <a href="{{ path('workers_edit', {'id': worker.id}) }}">edit</a>
+
+    {{ include('workers/_delete_form.html.twig') }}
+{% endblock %}

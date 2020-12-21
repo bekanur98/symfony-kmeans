@@ -1,0 +1,75 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Workers index{% endblock %}
+
+{% block body %}
+
+
+
+    <h1>Workers index</h1>
+
+    <h4>Total items: {{ totalItems }}</h4>
+    <h4>Current page: {{ currentPage }}</h4>
+    <table class="table-striped table-hover table-bordered" style="border: 1px solid">
+        <thead>
+            <tr>
+                <th>
+                    <a href="{{ path('workers_index', {'page': currentPage, 'order': 'id'}) }}">Id</a>
+                </th>
+                <th>
+                    <a href="{{ path('workers_index', {'page': currentPage, 'order': 'firstName'}) }}">FirstName</a>
+                </th>
+                <th>
+                    <a href="{{ path('workers_index', {'page': currentPage, 'order': 'lastName'}) }}">LastName</a>
+                </th>
+                <th>Company</th>
+                <th>Role</th>
+                <th>Salary</th>
+                <th>Series</th>
+                <th>Birthday</th>
+                <th>Age</th>
+                <th>Height</th>
+                <th>Weight</th>
+                <th>
+                    <a href="{{ path('workers_index', {'order': 'cluster_id'}) }}">cluster_id</a>
+                </th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for worker in workers %}
+            <tr>
+                <td>{{ worker.id }}</td>
+                <td>{{ worker.firstName }}</td>
+                <td>{{ worker.lastName }}</td>
+                <td>{{ worker.company }}</td>
+                <td>{{ worker.role }}</td>
+                <td>{{ worker.salary }}</td>
+                <td>{{ worker.series }}</td>
+                <td>{{ worker.birthday ? worker.birthday|date('Y-m-d') : '' }}</td>
+                <td>{{ worker.age }}</td>
+                <td>{{ worker.height }}</td>
+                <td>{{ worker.weight }}</td>
+                <td>{{ worker.cluster_id }}</td>
+                <td>
+                    <a href="{{ path('workers_show', {'id': worker.id}) }}">show</a>
+                    <a href="{{ path('workers_edit', {'id': worker.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="9">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('workers_index', {'page': 1}) }}">&laquo;</a>
+    {% for page in pages  %}
+        <a class="active btn-sm" href="{{ path('workers_index', {'page': page, 'order': order}) }}">{{ page }}</a>
+    {% endfor %}
+    <a href="{{ path('workers_index', {'page': pageCount}) }}">&raquo;</a>
+
+    <br>
+    <br>
+{% endblock %}
