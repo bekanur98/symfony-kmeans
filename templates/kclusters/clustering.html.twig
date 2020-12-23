@@ -2,9 +2,27 @@
 
 {% block title %}Kclusters index{% endblock %}
 
+{#{% block stylesheets %}#}
+{#    <style type="text/css">#}
+{#        .nNote{ -moz-border-radius: 2px; -webkit-border-radius: 2px; -khtml-border-radius: 2px; border-radius: 2px; }#}
+{#        .nSuccess { background: #effeb9 no-repeat 15px center; border: 1px solid #c1d779; color: #3C5A01; }#}
+{#    </style>#}
+{#{% endblock %}#}
+
 
 {% block body %}
 
+    {% block javascripts %}
+        <script>
+            $(".hideit").click(function() {
+                $(this).fadeTo(200, 0.00, function(){ //fade
+                    $(this).slideUp(300, function() { //slide up
+                        $(this).remove(); //then remove from the DOM
+                    });
+                })
+            });
+        </script>
+    {% endblock %}
     <h1>Clustering</h1>
 
     {% for flashMessage in app.session.flashbag.get('warning') %}
@@ -37,7 +55,9 @@
                     {{ form_row(form.dimensions) }}
                 </div>
             </div>
-            {{ form_row(form.cluster) }}
+            <div class="form-group">
+                <input type="submit" name="submit">
+            </div>
         </form>
     </div>
 

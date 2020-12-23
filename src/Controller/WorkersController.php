@@ -20,6 +20,7 @@ class WorkersController extends AbstractController
      */
     public function index(WorkersRepository $workersRepository, $page = 1, $order = "id"): Response
     {
+
         $workersArray = $workersRepository->getWorkersByPage($page, $order);
 
         $pages = [];

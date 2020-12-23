@@ -14,6 +14,7 @@ class KclustersType extends AbstractType
         $builder
             ->add('firstDim')
             ->add('secondDim')
+            ->add('cluster')
         ;
     }
 
