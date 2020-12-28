@@ -1,0 +1,93 @@
+batch_confirm_1: Вы уверены, что хотите
+    batch_confirm_2: выбранные элементы?
+    удалить: Удалить
+    Опубликовать: Опубликовать
+    unpublish: Отменить публикацию
+    save_draft: Сохранить как черновик
+    опубликовано: Опубликовано
+    неопубликовано: не опубликовано
+    draft: сохранено как черновик
+
+# Управление местоположениями
+локации:
+    business_locations: Расположение предприятий
+    business_locations_description: Управление местоположениями предприятий
+
+    add_new_location: Добавить новое местоположение компании
+    add_new_industry: Добавить новую отрасль
+    list_of_industries: Список отраслей
+
+    list_of_locations: Список офисов
+    name: Имя
+    is_default: по умолчанию
+    действия: Действия
+
+    изменить: Изменить
+    update: Обновить
+    back_to_list: Вернуться к списку
+
+    add_location_description: Создание нового местоположения компании
+    edit_location: Изменить местонахождение компании
+    edit_location_description: изменение сведений о местонахождении компании
+
+    select_batch: Выбрать действие
+    batch_confirm_1: Вы уверены, что хотите
+    batch_confirm_2: выбранные элементы?
+    удалить: Удалить
+
+# Управление отраслями
+отрасли:
+    business_industries: Отрасли бизнеса
+    business_industries_description: Управление отраслями бизнеса
+
+    add_new_industry: Добавить новую отрасль бизнеса
+    add_business_type: Добавить новый тип бизнеса
+    list_of_business_types: Список типов бизнеса
+
+    list_of_industries: Список отраслей
+    name: Имя
+    description: Описание
+    business_types: Типы бизнеса
+    действия: Действия
+
+    add_industry_description: Создание новой бизнес-индустрии
+    edit_industry: Редактировать бизнес-индустрию
+    edit_industry_description: изменение сведений о бизнес-отрасли
+
+    изменить: Изменить
+    update: Обновить
+    back_to_list: Вернуться к списку
+
+    select_batch: Выбрать действие
+    batch_confirm_1: Вы уверены, что хотите
+    batch_confirm_2: выбранные элементы?
+    удалить: Удалить
+
+# Управление типами бизнеса
+business_types:
+    business_types: Типы бизнеса
+    business_types_description: Управление типами бизнеса
+    add_business_type: Добавить новый вид бизнеса
+    add_new_activity: Добавить новое действие
+    list_of_activities: Список мероприятий
+
+    list_of_business_types: Список типов бизнеса
+    name: Имя
+    description: Описание
+    отрасли: Отрасли
+    мероприятия: мероприятия
+    is_common: Обычный
+    действия: Действия
+
+    add_business_type_description: Создание нового типа бизнеса
+    edit_business_type: Изменить тип бизнеса
+    edit_business_type_description: изменение сведений о типе бизнеса
+
+    изменить: Изменить
+    update: Обновить
+    back_to_list: Вернуться к списку
+
+    select_batch: выберите пакетное действие
+    batch_confirm_1: Вы уверены, что хотите
+    batch_confirm_2: выбранные элементы?
+    удалить: Удалить
